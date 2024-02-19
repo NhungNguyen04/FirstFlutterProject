@@ -1,0 +1,182 @@
+{
+   "checksum": "0163abf4f5514000eeb1f5732924d091",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13298035573290637",
+               "date_last_used": "0",
+               "guid": "5acb37df-77cb-418b-8ea4-bc4af657d555",
+               "id": "12",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www1.jp.dell.com/content/default.aspx?c=jp&l=ja&s=gen"
+            }, {
+               "date_added": "13298035573290637",
+               "date_last_used": "0",
+               "guid": "a40cef46-c7ec-4ebb-b7b5-54eabae3ca67",
+               "id": "13",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www.dell.com/support/home"
+            } ],
+            "date_added": "13298036582189946",
+            "date_last_used": "0",
+            "date_modified": "13298036582189946",
+            "guid": "ec6ec3f9-ae5e-4e3b-b5d3-71188e572870",
+            "id": "11",
+            "name": "Dell",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13312177387647312",
+            "date_last_used": "13325264185683249",
+            "guid": "9dea567b-2802-4a09-8344-6af5c1d0173b",
+            "id": "14",
+            "name": "main.py - oop-coffee-machine-final - Replit",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://replit.com/@TrainToSep/oop-coffee-machine-final#main.py"
+         }, {
+            "date_added": "13314293957836350",
+            "date_last_used": "0",
+            "guid": "5aaf8501-3442-4be8-847d-a53e5328edb0",
+            "id": "15",
+            "name": "",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/folders/1fwq6F_xJpdu-4LE2g_yMD2825gq2w4dw?fbclid=IwAR1B2QmFMvqnYoVRufHKKzi8aakoTpYiN7H9ELGK-c5oCfZ12K2xIYgw5Uo"
+         }, {
+            "date_added": "13324912805326147",
+            "date_last_used": "0",
+            "guid": "8a47319d-5721-433e-a9e9-b76a726c63da",
+            "id": "16",
+            "name": "1.6 Classes of functions - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=w7t4_JUUTeg&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=9"
+         }, {
+            "date_added": "13336503925243218",
+            "date_last_used": "0",
+            "guid": "01274539-bef8-4f95-bc5f-e495d6189586",
+            "id": "17",
+            "name": "The Complete JavaScript Course 2023: From Zero to Expert! | Udemy",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22648145#overview"
+         }, {
+            "date_added": "13336854110497049",
+            "date_last_used": "0",
+            "guid": "1640eda9-8f14-442c-8f7d-ceb424371fdf",
+            "id": "18",
+            "name": "Datasets - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1Y9Da9FfnEtcxibKT7fTo4zYVM90fYHX_"
+         }, {
+            "date_added": "13340085960112762",
+            "date_last_used": "0",
+            "guid": "668d09bb-2ec7-4341-8ad2-0025e85bf702",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Excercise_4 - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1HQZ56qeZNKPhm2j_iqKYVTX0t5cLoXzs"
+         }, {
+            "date_added": "13343150648546336",
+            "date_last_used": "0",
+            "guid": "d0a74146-501e-479a-8f9a-116d33bedc87",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Untitled",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.notion.so/b61b5a9513cf4350aa5817cde471b675"
+         }, {
+            "date_added": "13343847230529873",
+            "date_last_used": "0",
+            "guid": "c256d925-c1a7-4721-9321-3f8ccf0fddf5",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "iOS Course Resources | The App Brewery",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.appbrewery.co/p/ios-course-resources/"
+         }, {
+            "date_added": "13347614779970389",
+            "date_last_used": "0",
+            "guid": "580f13f5-6aec-454d-9886-f2981f131e13",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "BHTCNPM-SWM-NMMMT-CK-22-23.pdf",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "file:///C:/Users/nguye/Downloads/BHTCNPM-SWM-NMMMT-CK-22-23.pdf"
+         }, {
+            "date_added": "13350501166505940",
+            "date_last_used": "0",
+            "guid": "3549a6f0-6640-4d5a-a8e5-f0574db5c21b",
+            "id": "7",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/dell.html"
+         } ],
+         "date_added": "13350501166353147",
+         "date_last_used": "0",
+         "date_modified": "13351451497117202",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13350501166353150",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13350501166353151",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCOjVmmeNAQAAEgAgASoYa3g2Ym85NEh5bS93MlprUEJ1QkdMUT09oAYMEokBCAMShAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDI2OGYzMmQ5LWU4ZjYtNTgzZS1hOThjLWYwMjNmYzBmYjJhZBgAIAAoADDKu9DcsDA4iPqt5vAvQIj6rebwL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASqAEIEhKjAQocdzdCQ0hjWVRTdnJnZHE0RnpoN0w2VFZJOFZrPRIkMTY0MGVkYTktOGYxNC00NDJjLThmN2QtY2ViNDI0MzcxZmRmGAAgAygDMOOr67zWMTiHlvPNoDFAwr3ivNYxShxIbVlrY2FRYWxmL01HZUhNYWU3Qzh6dmZpMW89Wh8iHf1UM3VZd0ZnUXNMcWtibEZ4Y1daWTBVdjBJV1U9ZQAAAAASpwEIDBKiAQocY0s2U21wWEFHNGdPSnczQytLS1FyS215dkk0PRIkNWFjYjM3ZGYtNzdjYi00MThiLThlYTQtYmM0YWY2NTdkNTU1GAAgACgAMOK0pICQMDjbtaSAkDBA27WkgJAwShxpMUFPS3M1REhwQWdtWU95YStQN2QrdklpWmc9Wh4iHDFleVVxYXczYVFTZHZPNHN5YThjM3BNdzdLaz1lAAAAABKJAQgCEoQBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiRjYzYyNTNmMi1iNDM4LTVmM2ItOTNhNS01ZGJiYjk0MTVlYjkYACAAKAAwyrvQ3LAwONr5rebwL0Da+a3m8C9KHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEqcBCA0SogEKHGg2NUYrc0k1c3RTZm5EMHNpRXhra3AzNTZCOD0SJGE0MGNlZjQ2LWM3ZWMtNGViYi1iN2I1LTU0ZWFiYWUzY2E2NxgAIAAoADDYqpjHrjA4+rWkgJAwQPq1pICQMEoccGNMT1J3czl4eEM5aEYzZitnTjB4ZW5XT0lRPVoeIhxBQXRnRzAvNCtDYXRHV1BpVjNWNDZiZDFQZEU9Zb9g/nESqAEIEBKjAQoccVV4S2hVRVJpV0F4eHZ5MUdnRlQ5TjB0aEVJPRIkOGE0NzMxOWQtNTcyMS00MzNlLWE5ZTktYjc2YTcyNmM2M2RhGAAgAygDMOCr67zWMTjmx+2P9DBAwr3ivNYxShxHcjhKVFlDa0lycThydFNCNU1NTzUyYUkxM009Wh8iHe13bWFxdGU5TFBvNllvenFidXlnWVZTQTBLODg9ZQAAAAASpwEICxKiAQocM0dPUW1TQnNxcTZEdzE0RzNERFJOSDNadnpnPRIkZWM2ZWMzZjktYWU1ZS00ZTNiLWI1ZDMtNzExODhlNTcyODcwGAAgACgAMOK0pICQMDi7taSAkDBAu7WkgJAwShx5ZVpnTlRLTTJJUDYyTDJRaTN6cXY4dU1XUnM9Wh4iHFg1d2g1dldDSzIwMWFhTjFmbXhLWi9KVkxZdz1lAAAAABKoAQgREqMBChxVakRnRTdremhTRmJHZUM4bGRrMTh0M1lJYVE9EiQwMTI3NDUzOS1iZWY4LTRmOTUtYmM1Zi1lNDk1ZDYxODk1ODYYACADKAMw36vrvNYxOPDf9aafMUDCveK81jFKHDJ1VTZYRlRtUUdIc0dwanJXYVhXZXRwNVRWdz1aHyId+2RlRnFvK1RhMWxkYkdrSktZU0NJUUo0R3g5Zz1lAAAAABKJAQgBEoQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRlNDA1OWQxMS0zZTE0LTVkMDMtYjIzOS01MThmNjUyODYyYWEYACAAKAAwyrvQ3LAwOKv5rebwL0Cr+a3m8C9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEqcBCA4SogEKHEZKaWsvR2ZMMGM0YkVLNTU2USsrV1U0Qmhqcz0SJDlkZWE1NjdiLTI4MDItNGEwOS04MzQ0LTZhZjVjMWQwMTczYhgAIAMoAzDiq+u81jE4862R18QwQMG94rzWMUocVTV6U1AvUlROcmhXbzZaVGJpRXZXdTlLTEo4PVoeIhxpK0Q2cDUvUkhsWlB3UXprS0gveEpqNy92VmM9ZQAAAAASqAEIFRKjAQocNFZTNEVseHJoTFJYSFJXdDEwQnlwY29CV1lFPRIkYzI1NmQ5MjUtYzFhNy00NzIxLTkzMjEtM2Y4Y2NmMGZkZGY1GAAgAygDMOGr67zWMTjBob/UujFAwr3ivNYxShx4OG92Q0FXQjZzU1JieFd4WW00aGhLcFVPVGc9Wh8iHf9nbzNONm5VbHh3VnI0N3VkQStOc0tUNjg4NDA9ZQAAAAASqAEIExKjAQocbFY2UFlPOUhiMnRoZ1hnQmE5VDJBSXpleDNRPRIkNjY4ZDA5YmItMmVjNy00MzQxLThhZDItMDAyNWU4NWJmNzAyGAAgAygDMN2r67zWMTiSwf3SrDFAwr3ivNYxShxHc21QRjNMSUpiaDVVVWJjRGJ5Ui9xRHh1N2c9Wh8iHf4rMDJodFNtcG00OXZLMFpyRzVCNStUVFk0WFk9ZQAAAAASqAEIFBKjAQocZ0RyME9UZTQyYjB4SzFBTFNYZWlpc3NiaHMwPRIkZDBhNzQxNDYtNTAxZS00NzlhLThmOWEtMTE2ZDMzYmVkYzg3GAAgAygDMN6r67zWMTjgk6uIuDFAwr3ivNYxShwvMGhJNnJGU2ZOUVFMTGE4OXhEd2tPMDlNcFU9Wh8iHf9TUEJNWTd1UFZWZVYzcGxRRURGYisyekMrUTQ9ZQAAAAASqAEIDxKjAQocNTBkenVaK25OaFZKMlBtNTU0MDdPTnV2YVF3PRIkNWFhZjg1MDEtMzQ0Mi00YmU4LTg0N2QtYTUzZTUzMjhlZGIwGAAgAygDMNyr67zWMTi9y7LIzDBAwr3ivNYxShxCOUxmL0FIM0RJSm5vcmUwcnM0ZW1aK1VBaGs9Wh8iHbRHZjNtdmxPTFhaYUZ1QkhuK0Q3VnhmNEd4Q1E9ZQAAAAASqAEIFhKjAQoceUFVU0tRUWRmWlROc1lwYnppUXVpRW5jSkFnPRIkNTgwZjEzZjUtNmFlYy00NTRkLTk4ODYtZjI5ODFmMTMxZTEzGAAgACgAMMyUgNnIMTiDloDZyDFAg5aA2cgxShxjNW1qdVlvOXBmQUVmaFRXMWVvcTBvSUQ3aGc9Wh8iHf9ya0tyeHVMR3JEZlNzd3FtVVVoQjlEM0dZK2M9ZXdwbKMwADgA",
+   "version": 1
+}

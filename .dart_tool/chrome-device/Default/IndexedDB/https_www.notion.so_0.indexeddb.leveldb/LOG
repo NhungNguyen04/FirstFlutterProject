@@ -1,0 +1,6 @@
+2024/02/02-09:16:50.742 4590 Creating DB C:\Users\nguye\AppData\Local\Temp\flutter_tools.680e1d28\flutter_tools_chrome_device.87ca0c1b\Default\IndexedDB\https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2024/02/02-09:16:50.749 4590 Reusing MANIFEST C:\Users\nguye\AppData\Local\Temp\flutter_tools.680e1d28\flutter_tools_chrome_device.87ca0c1b\Default\IndexedDB\https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/02-09:16:51.151 4590 Level-0 table #5: started
+2024/02/02-09:16:51.157 4590 Level-0 table #5: 2639 bytes OK
+2024/02/02-09:16:51.160 4590 Delete type=0 #3
+2024/02/02-09:16:51.161 4590 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

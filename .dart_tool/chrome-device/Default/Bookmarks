@@ -1,0 +1,182 @@
+{
+   "checksum": "0163abf4f5514000eeb1f5732924d091",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13298035573290637",
+               "date_last_used": "0",
+               "guid": "5acb37df-77cb-418b-8ea4-bc4af657d555",
+               "id": "12",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www1.jp.dell.com/content/default.aspx?c=jp&l=ja&s=gen"
+            }, {
+               "date_added": "13298035573290637",
+               "date_last_used": "0",
+               "guid": "a40cef46-c7ec-4ebb-b7b5-54eabae3ca67",
+               "id": "13",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www.dell.com/support/home"
+            } ],
+            "date_added": "13298036582189946",
+            "date_last_used": "0",
+            "date_modified": "13298036582189946",
+            "guid": "ec6ec3f9-ae5e-4e3b-b5d3-71188e572870",
+            "id": "11",
+            "name": "Dell",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13312177387647312",
+            "date_last_used": "13325264185683249",
+            "guid": "9dea567b-2802-4a09-8344-6af5c1d0173b",
+            "id": "14",
+            "name": "main.py - oop-coffee-machine-final - Replit",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://replit.com/@TrainToSep/oop-coffee-machine-final#main.py"
+         }, {
+            "date_added": "13314293957836350",
+            "date_last_used": "0",
+            "guid": "5aaf8501-3442-4be8-847d-a53e5328edb0",
+            "id": "15",
+            "name": "",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/folders/1fwq6F_xJpdu-4LE2g_yMD2825gq2w4dw?fbclid=IwAR1B2QmFMvqnYoVRufHKKzi8aakoTpYiN7H9ELGK-c5oCfZ12K2xIYgw5Uo"
+         }, {
+            "date_added": "13324912805326147",
+            "date_last_used": "0",
+            "guid": "8a47319d-5721-433e-a9e9-b76a726c63da",
+            "id": "16",
+            "name": "1.6 Classes of functions - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=w7t4_JUUTeg&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=9"
+         }, {
+            "date_added": "13336503925243218",
+            "date_last_used": "0",
+            "guid": "01274539-bef8-4f95-bc5f-e495d6189586",
+            "id": "17",
+            "name": "The Complete JavaScript Course 2023: From Zero to Expert! | Udemy",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22648145#overview"
+         }, {
+            "date_added": "13336854110497049",
+            "date_last_used": "0",
+            "guid": "1640eda9-8f14-442c-8f7d-ceb424371fdf",
+            "id": "18",
+            "name": "Datasets - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1Y9Da9FfnEtcxibKT7fTo4zYVM90fYHX_"
+         }, {
+            "date_added": "13340085960112762",
+            "date_last_used": "0",
+            "guid": "668d09bb-2ec7-4341-8ad2-0025e85bf702",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Excercise_4 - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1HQZ56qeZNKPhm2j_iqKYVTX0t5cLoXzs"
+         }, {
+            "date_added": "13343150648546336",
+            "date_last_used": "0",
+            "guid": "d0a74146-501e-479a-8f9a-116d33bedc87",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Untitled",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.notion.so/b61b5a9513cf4350aa5817cde471b675"
+         }, {
+            "date_added": "13343847230529873",
+            "date_last_used": "0",
+            "guid": "c256d925-c1a7-4721-9321-3f8ccf0fddf5",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "iOS Course Resources | The App Brewery",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.appbrewery.co/p/ios-course-resources/"
+         }, {
+            "date_added": "13347614779970389",
+            "date_last_used": "0",
+            "guid": "580f13f5-6aec-454d-9886-f2981f131e13",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "BHTCNPM-SWM-NMMMT-CK-22-23.pdf",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "file:///C:/Users/nguye/Downloads/BHTCNPM-SWM-NMMMT-CK-22-23.pdf"
+         }, {
+            "date_added": "13350501166505940",
+            "date_last_used": "0",
+            "guid": "3549a6f0-6640-4d5a-a8e5-f0574db5c21b",
+            "id": "7",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/dell.html"
+         } ],
+         "date_added": "13350501166353147",
+         "date_last_used": "0",
+         "date_modified": "13352572182340725",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13350501166353150",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13350501166353151",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCOjVmmeNAQAAEgAgASoYa3g2Ym85NEh5bS93MlprUEJ1QkdMUT09oAYMEqgBCBYSowEKHHlBVVNLUVFkZlpUTnNZcGJ6aVF1aUVuY0pBZz0SJDU4MGYxM2Y1LTZhZWMtNDU0ZC05ODg2LWYyOTgxZjEzMWUxMxgAIAAoADDMlIDZyDE4g5aA2cgxQIOWgNnIMUocYzVtanVZbzlwZkFFZmhUVzFlb3Ewb0lEN2hnPVofIh3/cmtLcnh1TEdyRGZTc3dxbVVVaEI5RDNHWStjPWV3cGyjEqgBCA8SowEKHDUwZHp1WituTmhWSjJQbTU1NDA3T051dmFRdz0SJDVhYWY4NTAxLTM0NDItNGJlOC04NDdkLWE1M2U1MzI4ZWRiMBgAIAMoAzDcq+u81jE4vcuyyMwwQMK94rzWMUocQjlMZi9BSDNESUpub3JlMHJzNGVtWitVQWhrPVofIh20R2YzbXZsT0xYWmFGdUJIbitEN1Z4ZjRHeENRPWUAAAAAEqgBCBQSowEKHGdEcjBPVGU0MmIweEsxQUxTWGVpaXNzYmhzMD0SJGQwYTc0MTQ2LTUwMWUtNDc5YS04ZjlhLTExNmQzM2JlZGM4NxgAIAMoAzDeq+u81jE44JOriLgxQMK94rzWMUocLzBoSTZyRlNmTlFRTExhODl4RHdrTzA5TXBVPVofIh3/U1BCTVk3dVBWVmVWM3BsUUVERmIrMnpDK1E0PWUAAAAAEqgBCBMSowEKHGxWNlBZTzlIYjJ0aGdYZ0JhOVQyQUl6ZXgzUT0SJDY2OGQwOWJiLTJlYzctNDM0MS04YWQyLTAwMjVlODViZjcwMhgAIAMoAzDdq+u81jE4ksH90qwxQMK94rzWMUocR3NtUEYzTElKYmg1VVViY0RieVIvcUR4dTdnPVofIh3+KzAyaHRTbXBtNDl2SzBackc1QjUrVFRZNFhZPWUAAAAAEqgBCBUSowEKHDRWUzRFbHhyaExSWEhSV3QxMEJ5cGNvQldZRT0SJGMyNTZkOTI1LWMxYTctNDcyMS05MzIxLTNmOGNjZjBmZGRmNRgAIAMoAzDhq+u81jE4waG/1LoxQMK94rzWMUoceDhvdkNBV0I2c1NSYnhXeFltNGhoS3BVT1RnPVofIh3/Z28zTjZuVWx4d1ZyNDd1ZEErTnNLVDY4ODQwPWUAAAAAEqcBCA4SogEKHEZKaWsvR2ZMMGM0YkVLNTU2USsrV1U0Qmhqcz0SJDlkZWE1NjdiLTI4MDItNGEwOS04MzQ0LTZhZjVjMWQwMTczYhgAIAMoAzDiq+u81jE4862R18QwQMG94rzWMUocVTV6U1AvUlROcmhXbzZaVGJpRXZXdTlLTEo4PVoeIhxpK0Q2cDUvUkhsWlB3UXprS0gveEpqNy92VmM9ZQAAAAASpwEICxKiAQocM0dPUW1TQnNxcTZEdzE0RzNERFJOSDNadnpnPRIkZWM2ZWMzZjktYWU1ZS00ZTNiLWI1ZDMtNzExODhlNTcyODcwGAAgACgAMOK0pICQMDi7taSAkDBAu7WkgJAwShx5ZVpnTlRLTTJJUDYyTDJRaTN6cXY4dU1XUnM9Wh4iHFg1d2g1dldDSzIwMWFhTjFmbXhLWi9KVkxZdz1lAAAAABKoAQgREqMBChxVakRnRTdremhTRmJHZUM4bGRrMTh0M1lJYVE9EiQwMTI3NDUzOS1iZWY4LTRmOTUtYmM1Zi1lNDk1ZDYxODk1ODYYACADKAMw36vrvNYxOPDf9aafMUDCveK81jFKHDJ1VTZYRlRtUUdIc0dwanJXYVhXZXRwNVRWdz1aHyId+2RlRnFvK1RhMWxkYkdrSktZU0NJUUo0R3g5Zz1lAAAAABKoAQgQEqMBChxxVXhLaFVFUmlXQXh4dnkxR2dGVDlOMHRoRUk9EiQ4YTQ3MzE5ZC01NzIxLTQzM2UtYTllOS1iNzZhNzI2YzYzZGEYACADKAMw4KvrvNYxOObH7Y/0MEDCveK81jFKHEdyOEpUWUNrSXJxOHJ0U0I1TU1PNTJhSTEzTT1aHyId7XdtYXF0ZTlMUG82WW96cWJ1eWdZVlNBMEs4OD1lAAAAABKJAQgBEoQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRlNDA1OWQxMS0zZTE0LTVkMDMtYjIzOS01MThmNjUyODYyYWEYACAAKAAwyrvQ3LAwOKv5rebwL0Cr+a3m8C9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEqcBCA0SogEKHGg2NUYrc0k1c3RTZm5EMHNpRXhra3AzNTZCOD0SJGE0MGNlZjQ2LWM3ZWMtNGViYi1iN2I1LTU0ZWFiYWUzY2E2NxgAIAAoADDYqpjHrjA4+rWkgJAwQPq1pICQMEoccGNMT1J3czl4eEM5aEYzZitnTjB4ZW5XT0lRPVoeIhxBQXRnRzAvNCtDYXRHV1BpVjNWNDZiZDFQZEU9Zb9g/nESiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkY2M2MjUzZjItYjQzOC01ZjNiLTkzYTUtNWRiYmI5NDE1ZWI5GAAgACgAMMq70NywMDja+a3m8C9A2vmt5vAvShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQyNjhmMzJkOS1lOGY2LTU4M2UtYTk4Yy1mMDIzZmMwZmIyYWQYACAAKAAwyrvQ3LAwOIj6rebwL0CI+q3m8C9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqgBCBISowEKHHc3QkNIY1lUU3ZyZ2RxNEZ6aDdMNlRWSThWaz0SJDE2NDBlZGE5LThmMTQtNDQyYy04ZjdkLWNlYjQyNDM3MWZkZhgAIAMoAzDjq+u81jE4h5bzzaAxQMK94rzWMUocSG1Za2NhUWFsZi9NR2VITWFlN0M4enZmaTFvPVofIh39VDN1WXdGZ1FzTHFrYmxGeGNXWlkwVXYwSVdVPWUAAAAAEqcBCAwSogEKHGNLNlNtcFhBRzRnT0p3M0MrS0tRcktteXZJND0SJDVhY2IzN2RmLTc3Y2ItNDE4Yi04ZWE0LWJjNGFmNjU3ZDU1NRgAIAAoADDitKSAkDA427WkgJAwQNu1pICQMEocaTFBT0tzNURIcEFnbVlPeWErUDdkK3ZJaVpnPVoeIhwxZXlVcWF3M2FRU2R2TzRzeWE4YzNwTXc3S2s9ZQAAAAAwADgA",
+   "version": 1
+}
