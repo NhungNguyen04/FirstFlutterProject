@@ -180,7 +180,36 @@ class BigCard extends StatelessWidget {
   }
 }
 
-class FavoritePage extends StatelessWidget {
+class FavoritePage extends StatefulWidget {
+  @override
+  State<FavoritePage> createState() => _FavoritePageState();
+}
+
+class _FavoritePageState extends State<FavoritePage> {
+  final GlobalKey<AnimatedListState> key = GlobalKey();
+  void _removeItem(int index, items) {
+      key.currentState!.removeItem(
+        index,
+        (_, animation) {
+          return SizeTransition(
+            sizeFactor: animation,
+            child: const Card(
+              margin: EdgeInsets.all(10),
+              color: Colors.red,
+              child: ListTile(
+                title: Text(
+                  "Deleted",
+                  style: TextStyle(fontSize: 24),
+                )
+              )
+            ),
+          );
+        },
+        duration: const Duration(milliseconds: 300),
+      );
+      items.removeAt(index);
+    }
+
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
@@ -198,11 +227,35 @@ class FavoritePage extends StatelessWidget {
           child: Text('You have '
               '${appState.favorites.length} favorites:'),
         ),
-        for (var pair in appState.favorites)
-          ListTile(
-            leading: Icon(Icons.favorite),
-            title: Text(pair.asLowerCase),
+        Expanded(
+          child: AnimatedList(
+            key: key,
+            initialItemCount: appState.favorites.length,
+            padding: const EdgeInsets.all(10),
+            itemBuilder: (context, index, animation) {
+              return SizeTransition (
+                key: UniqueKey(),
+                sizeFactor: animation,
+                child: Card (
+                  margin: const EdgeInsets.all(10),
+                  color: Colors.orangeAccent,
+                  child: ListTile(
+                    title: Text(
+                      appState.favorites[index].asPascalCase,
+                      style: const TextStyle(fontSize: 24),
+                    ),
+                    trailing: IconButton(
+                      icon: const Icon(Icons.delete),
+                      onPressed: () {
+                        _removeItem(index, appState.favorites);
+                      }
+                    ),
+                  )
+                )
+              );
+            }
           ),
+        )
       ],
     );
   }

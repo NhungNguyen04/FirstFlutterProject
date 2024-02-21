@@ -243,22 +243,41 @@
       "appId": "8f6c546d0514482c9898cd8f963453cc",
       "appName": "operation_platform",
       "data": {
-         "operation_upsell_config": {
+         "operation_notification_config": {
+            "body": "Sample Notification Body, you can click it to test the navigation behavior",
+            "max_datetime_str": "28 Feb 2024 13:00 GMT",
             "max_version": 125,
+            "min_datetime_str": "6 Feb 2024 13:00 GMT",
             "min_version": 122,
+            "navigate_to": "microsoft-edge-x://action/copilot?query=weather+in+seattle&input=Keyboard&launchsource=DeeplinkAppStore&mode=Precise",
+            "operation_id": 1,
+            "schedule_datetime": "12:00",
             "target_user_profile": {
                "copilot_eligiable": true,
                "language_code": "en",
                "operation_debug_user": true
             },
-            "upsell_id": 1,
-            "upsell_url": "https://edgeop.azurewebsites.net"
+            "title": "Sample Notification Title"
+         },
+         "operation_upsell_config": {
+            "is_full_screen": false,
+            "max_datetime_str": "28 Feb 2024 13:00 GMT",
+            "max_version": 125,
+            "min_datetime_str": "6 Feb 2024 13:00 GMT",
+            "min_version": 122,
+            "operation_id": 1,
+            "target_user_profile": {
+               "copilot_eligiable": true,
+               "language_code": "en",
+               "operation_debug_user": true
+            },
+            "upsell_url": "https://edgeop.azurewebsites.net/sample"
          }
       },
       "effectStrategy": "launch",
       "instanceId": "35cafee49b9741a5ae5b2f7799ecc815",
       "type": "normal",
-      "version": "1002"
+      "version": "1007"
    } ],
-   "version": "202402070001"
+   "version": "202402190002"
 }
