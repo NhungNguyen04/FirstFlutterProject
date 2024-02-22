@@ -43,6 +43,21 @@
             "description": "__MSG_auto_open_settings_description_pdf__",
             "title": "__MSG_auto_open_settings_title_pdf__"
          }
+      }, {
+         "approved_channels": [ "canary", "dev", "beta", "stable" ],
+         "enabled": false,
+         "enabled|flight:msEdgeChatAutoOpenUseV2Framework": true,
+         "footer": {
+            "open_count": 3,
+            "text": "__MSG_auto_open_footer_notification_text_for_paa__"
+         },
+         "force_auto_open": false,
+         "id": "5b853177-a0be-4237-bda0-4fce5cd165c2",
+         "non_visible_user_friendly_name": "PAA Auto Open",
+         "settings_toggle": {
+            "description": "__MSG_auto_open_settings_description_paa__",
+            "title": "__MSG_auto_open_settings_title_paa__"
+         }
       } ],
       "auto_show": {
          "enabled": true,
@@ -83,9 +98,9 @@
       "description": "Contextually relevant info for any page",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.2/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_hc.png/1.3.2/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.2/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.3/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_hc.png/1.3.3/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.3/asset"
          }
       },
       "id": "cd4688a9-e888-48ea-ad81-76193d56b1be",
@@ -135,7 +150,7 @@
       "target": {
          "command": "discover_chat"
       },
-      "version": "1.3.2"
+      "version": "1.3.3"
    }, {
       "auto_show": {
          "enabled": true,

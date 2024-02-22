@@ -180,35 +180,8 @@ class BigCard extends StatelessWidget {
   }
 }
 
-class FavoritePage extends StatefulWidget {
-  @override
-  State<FavoritePage> createState() => _FavoritePageState();
-}
-
-class _FavoritePageState extends State<FavoritePage> {
+class FavoritePage extends StatelessWidget {
   final GlobalKey<AnimatedListState> key = GlobalKey();
-  void _removeItem(int index, items) {
-      key.currentState!.removeItem(
-        index,
-        (_, animation) {
-          return SizeTransition(
-            sizeFactor: animation,
-            child: const Card(
-              margin: EdgeInsets.all(10),
-              color: Colors.red,
-              child: ListTile(
-                title: Text(
-                  "Deleted",
-                  style: TextStyle(fontSize: 24),
-                )
-              )
-            ),
-          );
-        },
-        duration: const Duration(milliseconds: 300),
-      );
-      items.removeAt(index);
-    }
 
   @override
   Widget build(BuildContext context) {
@@ -220,43 +193,55 @@ class _FavoritePageState extends State<FavoritePage> {
       );
     }
 
-    return ListView(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(20),
-          child: Text('You have '
-              '${appState.favorites.length} favorites:'),
-        ),
-        Expanded(
-          child: AnimatedList(
-            key: key,
-            initialItemCount: appState.favorites.length,
-            padding: const EdgeInsets.all(10),
-            itemBuilder: (context, index, animation) {
-              return SizeTransition (
-                key: UniqueKey(),
-                sizeFactor: animation,
-                child: Card (
-                  margin: const EdgeInsets.all(10),
-                  color: Colors.orangeAccent,
-                  child: ListTile(
-                    title: Text(
-                      appState.favorites[index].asPascalCase,
-                      style: const TextStyle(fontSize: 24),
-                    ),
-                    trailing: IconButton(
-                      icon: const Icon(Icons.delete),
-                      onPressed: () {
-                        _removeItem(index, appState.favorites);
-                      }
-                    ),
-                  )
-                )
-              );
-            }
-          ),
-        )
-      ],
+    return AnimatedList(
+      key: key,
+      initialItemCount: appState.favorites.length,
+      itemBuilder: (context, index, animation) {
+        return _buildItem(context, appState.favorites[index], animation);
+      },
     );
+  }
+
+  Widget _buildItem(BuildContext context, WordPair pair, Animation<double> animation) {
+    return SizeTransition(
+      sizeFactor: animation,
+      child: Card(
+        margin: EdgeInsets.all(10),
+        child: ListTile(
+          title: Text(
+            pair.asPascalCase,
+            style: TextStyle(fontSize: 24),
+          ),
+          trailing: IconButton(
+            icon: Icon(Icons.delete),
+            onPressed: () {
+              _removeItem(context, pair, animation);
+            },
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _removeItem(BuildContext context, WordPair pair, Animation<double> animation) {
+    var appState = context.read<MyAppState>();
+    int index = appState.favorites.indexOf(pair);
+    appState.favorites.removeAt(index);
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text('Item removed from favorites'),
+      action: SnackBarAction(
+        label: 'UNDO',
+        onPressed: () {
+          appState.favorites.insert(index, pair);
+          _buildItem(context, pair, animation);
+        },
+      ),
+    ));
+
+    key.currentState?.removeItem(
+      index,
+      (context, animation) => _buildItem(context, pair, animation),
+      duration: Duration(milliseconds: 500),
+    ); // Remove the item from the AnimatedList
   }
 }
