@@ -187,18 +187,21 @@ class FavoritePage extends StatelessWidget {
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
 
-    if (appState.favorites.isEmpty) {
-      return Center(
-        child: Text('No favorites yet.'),
-      );
-    }
-
-    return AnimatedList(
-      key: key,
-      initialItemCount: appState.favorites.length,
-      itemBuilder: (context, index, animation) {
-        return _buildItem(context, appState.favorites[index], animation);
-      },
+    return GridView.builder(
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 4,
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+      ),
+      itemBuilder: (context, index) {
+        return AnimatedList(
+          key: key,
+          initialItemCount: appState.favorites.length,
+          itemBuilder: (context, index, animation) {
+          return _buildItem(context, appState.favorites[index], animation);
+          },
+        );
+      }
     );
   }
 
@@ -215,7 +218,7 @@ class FavoritePage extends StatelessWidget {
           trailing: IconButton(
             icon: Icon(Icons.delete),
             onPressed: () {
-              _removeItem(context, pair, animation);
+              _removeItem(context, pair);
             },
           ),
         ),
@@ -223,7 +226,7 @@ class FavoritePage extends StatelessWidget {
     );
   }
 
-  void _removeItem(BuildContext context, WordPair pair, Animation<double> animation) {
+  void _removeItem(BuildContext context, WordPair pair) {
     var appState = context.read<MyAppState>();
     int index = appState.favorites.indexOf(pair);
     appState.favorites.removeAt(index);
@@ -233,11 +236,10 @@ class FavoritePage extends StatelessWidget {
         label: 'UNDO',
         onPressed: () {
           appState.favorites.insert(index, pair);
-          _buildItem(context, pair, animation);
+          key.currentState?.insertItem(index);
         },
       ),
     ));
-
     key.currentState?.removeItem(
       index,
       (context, animation) => _buildItem(context, pair, animation),
