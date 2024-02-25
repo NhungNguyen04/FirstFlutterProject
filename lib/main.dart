@@ -2,6 +2,52 @@ import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:cupertino_icons/cupertino_icons.dart';
+import 'package:sqflite/sqflite.dart';
+import 'package:path/path.dart';
+import 'favorited_item.dart';
+
+
+class DatabaseHelper {
+  static Database? _database;
+
+  Future<Database> get database async {
+    if (_database != null) return _database!;
+
+    _database = await initDatabase();
+    return _database!;
+  }
+
+  Future<Database> initDatabase() async {
+    return openDatabase(
+      join(await getDatabasesPath(), 'favorited_items.db'),
+      onCreate: (db, version) {
+        return db.execute(
+          "CREATE TABLE favorited_items(id INTEGER PRIMARY KEY, wordPair TEXT)",
+        );
+      },
+      version: 1,
+    );
+  }
+
+
+  Future<void> insertFavoritedItem(FavoritedItem item) async {
+    final db = await database;
+    await db.insert(
+      'favorited_items',
+      item.toMap(),
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
+  }
+
+  Future<List<FavoritedItem>> getFavoritedItems() async {
+    final db = await database;
+    final List<Map<String, dynamic>> maps = await db.query('favorited_items');
+    return List.generate(maps.length, (i) {
+      return FavoritedItem.fromMap(maps[i]);
+    });
+  }
+}
+
 
 void main() {
   runApp(MyApp());
@@ -187,21 +233,18 @@ class FavoritePage extends StatelessWidget {
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
 
-    return GridView.builder(
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 4,
-        crossAxisSpacing: 10,
-        mainAxisSpacing: 10,
-      ),
-      itemBuilder: (context, index) {
-        return AnimatedList(
-          key: key,
-          initialItemCount: appState.favorites.length,
-          itemBuilder: (context, index, animation) {
-          return _buildItem(context, appState.favorites[index], animation);
-          },
-        );
-      }
+    if (appState.favorites.isEmpty) {
+      return Center(
+        child: Text('No favorites yet.'),
+      );
+    }
+
+    return AnimatedList(
+      key: key,
+      initialItemCount: appState.favorites.length,
+      itemBuilder: (context, index, animation) {
+        return _buildItem(context, appState.favorites[index], animation);
+      },
     );
   }
 
@@ -218,7 +261,7 @@ class FavoritePage extends StatelessWidget {
           trailing: IconButton(
             icon: Icon(Icons.delete),
             onPressed: () {
-              _removeItem(context, pair);
+              _removeItem(context, pair, animation);
             },
           ),
         ),
@@ -226,7 +269,7 @@ class FavoritePage extends StatelessWidget {
     );
   }
 
-  void _removeItem(BuildContext context, WordPair pair) {
+  void _removeItem(BuildContext context, WordPair pair, Animation<double> animation) {
     var appState = context.read<MyAppState>();
     int index = appState.favorites.indexOf(pair);
     appState.favorites.removeAt(index);
@@ -240,6 +283,7 @@ class FavoritePage extends StatelessWidget {
         },
       ),
     ));
+
     key.currentState?.removeItem(
       index,
       (context, animation) => _buildItem(context, pair, animation),
